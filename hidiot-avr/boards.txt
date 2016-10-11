@@ -1,0 +1,19 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+# menu.cpu=Processor - only have 1 definition, is this really needed?
+
+##############################################################
+
+hidiot.name=Hidiot (16.5mhz, USB)
+hidiot.upload.using=micronucleusprog
+hidiot.upload.protocol=usb
+hidiot.upload.tool=micronucleus
+hidiot.upload.maximum_size=6012
+hidiot.build.mcu=attiny85
+hidiot.build.f_cpu=16500000L
+hidiot.build.board=AVR_HIDIOT
+hidiot.build.core=tiny
+hidiot.build.variant=hidiot
+hidiot.upload.wait_for_upload_port = false
+hidiot.upload.use_1200bps_touch = false
+hidiot.upload.disable_flushing = false
